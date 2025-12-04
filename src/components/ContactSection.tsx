@@ -32,7 +32,7 @@ const ContactSection = () => {
 
             {/* Primary CTA */}
             <Button variant="hero" size="xl" className="mb-10" asChild>
-              <a href="mailto:your.email@example.com">
+              <a href="mailto:n.mtshilibe6@gmail.com">
                 <Send className="w-5 h-5" />
                 Send Me an Email
               </a>
@@ -41,7 +41,7 @@ const ContactSection = () => {
             {/* Social Links */}
             <div className="flex flex-wrap items-center justify-center gap-4">
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:n.mtshilibe6@gmail.com"
                 className="flex items-center gap-2 px-5 py-3 rounded-lg bg-secondary border border-border hover:border-primary/50 text-muted-foreground hover:text-primary transition-all duration-300"
               >
                 <Mail className="w-5 h-5" />
@@ -49,7 +49,7 @@ const ContactSection = () => {
               </a>
 
               <a
-                href="https://linkedin.com/in/yourprofile"
+                href="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-5 py-3 rounded-lg bg-secondary border border-border hover:border-primary/50 text-muted-foreground hover:text-primary transition-all duration-300"
@@ -59,7 +59,7 @@ const ContactSection = () => {
               </a>
 
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/Nomdumiso"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-5 py-3 rounded-lg bg-secondary border border-border hover:border-primary/50 text-muted-foreground hover:text-primary transition-all duration-300"
