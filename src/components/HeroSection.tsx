@@ -20,7 +20,7 @@ const HeroSection = () => {
 
           {/* Name */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in opacity-0 [animation-delay:400ms]">
-            <span className="text-foreground">Your Name</span>
+            <span className="text-foreground">Nomdumiso Irene Mtshilibe</span>
           </h1>
 
           {/* Role */}
@@ -48,7 +48,7 @@ const HeroSection = () => {
           {/* Social Links */}
           <div className="flex items-center justify-center gap-6 animate-fade-in opacity-0 [animation-delay:1200ms]">
             <a
-              href="https://github.com"
+              href="https://github.com/Nomdumiso"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
@@ -66,7 +66,7 @@ const HeroSection = () => {
               <Linkedin className="w-6 h-6" />
             </a>
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:n.mtshilibe6@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
               aria-label="Email"
             >

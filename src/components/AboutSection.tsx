@@ -21,7 +21,7 @@ const AboutSection = () => {
                   <div className="text-center p-8">
                     <div className="w-32 h-32 mx-auto rounded-full bg-gradient-primary mb-6 flex items-center justify-center">
                       <span className="text-5xl font-bold text-primary-foreground">
-                        YN
+                        NM
                       </span>
                     </div>
                     <p className="text-muted-foreground text-sm">
