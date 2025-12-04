@@ -1,3 +1,5 @@
+import profilePhoto from "@/assets/profile-photo.jpeg";
+
 const AboutSection = () => {
   return (
     <section id="about" className="py-24 relative">
@@ -17,18 +19,11 @@ const AboutSection = () => {
             {/* Profile Image Area */}
             <div className="relative">
               <div className="aspect-square rounded-2xl card-gradient border border-border overflow-hidden glow-soft">
-                <div className="w-full h-full flex items-center justify-center bg-secondary/50">
-                  <div className="text-center p-8">
-                    <div className="w-32 h-32 mx-auto rounded-full bg-gradient-primary mb-6 flex items-center justify-center">
-                      <span className="text-5xl font-bold text-primary-foreground">
-                        NM
-                      </span>
-                    </div>
-                    <p className="text-muted-foreground text-sm">
-                      Add your professional headshot here
-                    </p>
-                  </div>
-                </div>
+                <img 
+                  src={profilePhoto} 
+                  alt="Nomdumiso Irene Mtshilibe - Professional Headshot" 
+                  className="w-full h-full object-cover object-top"
+                />
               </div>
               {/* Decorative element */}
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary/20 rounded-full blur-2xl" />
