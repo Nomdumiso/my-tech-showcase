@@ -32,50 +32,49 @@ const AboutSection = () => {
             {/* Content */}
             <div className="space-y-6">
               <h4 className="text-2xl font-semibold text-foreground">
-                A passionate technologist focused on{" "}
-                <span className="text-gradient">Cloud & AI</span>
+                Software & Data Engineering professional focused on{" "}
+                <span className="text-gradient">Cloud & AI Solutions</span>
               </h4>
 
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  I'm a dedicated professional with expertise in cloud
-                  computing, artificial intelligence, and DevOps practices.
-                  Currently completing an intensive bootcamp focused on
-                  end-to-end technical solutions.
+                  I'm a motivated and analytical Software/Data Engineering Learnership Candidate at CapaCiTi 
+                  with a strong foundation in data entry, reporting, digital facilitation, and problem-solving. 
+                  With 2+ years' experience working with learner data and school systems, I bring attention 
+                  to detail, structured thinking, and user support capability.
                 </p>
 
                 <p>
-                  My journey in tech has equipped me with hands-on experience
-                  in designing scalable architectures, implementing CI/CD
-                  pipelines, and leveraging AI/ML technologies to solve
-                  real-world problems.
+                  Currently developing skills in software engineering, data analytics, databases, and digital 
+                  systems through intensive training at CapaCiTi and FNB App Academy. My background in 
+                  administration and reporting supports my technical growth in building data-driven solutions.
                 </p>
 
                 <p>
-                  I thrive in collaborative environments and am passionate
-                  about continuous learning. My goal is to contribute to
-                  innovative projects that make a meaningful impact.
+                  I'm passionate about exploring AI, cloud technologies, and DevOps practices. My goal is to 
+                  contribute to innovative projects that leverage technology to solve real-world problems 
+                  and make a meaningful impact.
                 </p>
               </div>
 
               {/* Quick stats */}
               <div className="grid grid-cols-3 gap-4 pt-6">
                 <div className="text-center p-4 rounded-lg bg-secondary/50 border border-border">
-                  <div className="text-2xl font-bold text-gradient">5+</div>
+                  <div className="text-2xl font-bold text-gradient">100+</div>
                   <div className="text-xs text-muted-foreground mt-1">
-                    Projects
+                    Learners Supported
                   </div>
                 </div>
                 <div className="text-center p-4 rounded-lg bg-secondary/50 border border-border">
-                  <div className="text-2xl font-bold text-gradient">10+</div>
+                  <div className="text-2xl font-bold text-gradient">2+</div>
                   <div className="text-xs text-muted-foreground mt-1">
-                    Technologies
+                    Years Experience
                   </div>
                 </div>
                 <div className="text-center p-4 rounded-lg bg-secondary/50 border border-border">
                   <div className="text-2xl font-bold text-gradient">100%</div>
                   <div className="text-xs text-muted-foreground mt-1">
-                    Committed
+                    Data Accuracy
                   </div>
                 </div>
               </div>

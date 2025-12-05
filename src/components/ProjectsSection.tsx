@@ -1,45 +1,38 @@
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github, ArrowRight } from "lucide-react";
+import projectMercuryAI from "@/assets/project-mercury-ai.png";
+import projectPowerApps from "@/assets/project-power-apps.png";
+import projectExpenseGuardian from "@/assets/project-expense-guardian.png";
 
 const projects = [
   {
-    title: "Capstone Project",
+    title: "AI Expense Guardian",
     description:
-      "End-to-end cloud solution integrating AI, data pipelines, and DevOps automation. Showcases full-stack capabilities across multiple technologies.",
-    tools: ["AWS", "Python", "Docker", "Terraform", "OpenAI"],
+      "End-to-end AI-powered expense management solution featuring OCR document scanning, anomaly detection, auto-categorization, and audit/risk prediction. Built with Gemini Vision AI and deployed on Kubernetes.",
+    tools: ["Python", "Gemini AI", "OCR", "Kubernetes", "Docker"],
     featured: true,
-    image: null,
-    github: "https://github.com",
+    image: projectExpenseGuardian,
+    github: "https://github.com/Nomdumiso",
     demo: "#",
   },
   {
-    title: "AI/LLM Demo Application",
+    title: "Mercury AI",
     description:
-      "Interactive AI-powered application leveraging large language models for intelligent text processing and generation.",
-    tools: ["Python", "LangChain", "OpenAI", "Streamlit"],
+      "Interactive AI-powered application for generating professional bios, profiles, and portfolio summaries. Features multiple tone options and saved output management.",
+    tools: ["Python", "OpenAI", "Streamlit", "LangChain"],
     featured: false,
-    image: null,
-    github: "https://github.com",
+    image: projectMercuryAI,
+    github: "https://github.com/Nomdumiso",
     demo: "#",
   },
   {
-    title: "Power Apps Business Solution",
+    title: "Angela's Shop",
     description:
-      "Low-code business application built with Microsoft Power Platform to automate workflows and improve productivity.",
+      "Low-code e-commerce business application built with Microsoft Power Apps for inventory management and customer engagement.",
     tools: ["Power Apps", "Power Automate", "SharePoint", "Dataverse"],
     featured: false,
-    image: null,
-    github: "https://github.com",
-    demo: "#",
-  },
-  {
-    title: "CI/CD Pipeline Implementation",
-    description:
-      "Automated deployment pipeline with infrastructure as code, containerization, and continuous integration practices.",
-    tools: ["GitHub Actions", "Docker", "Kubernetes", "Terraform"],
-    featured: false,
-    image: null,
-    github: "https://github.com",
+    image: projectPowerApps,
+    github: "https://github.com/Nomdumiso",
     demo: "#",
   },
 ];
@@ -133,11 +126,17 @@ const ProjectsSection = () => {
                   key={project.title}
                   className="group p-6 rounded-2xl card-gradient border border-border hover:border-primary/50 transition-all duration-300 hover:glow-soft flex flex-col"
                 >
-                  {/* Project placeholder image */}
+                  {/* Project image */}
                   <div className="aspect-video rounded-lg bg-secondary/50 mb-5 flex items-center justify-center border border-border overflow-hidden">
-                    <span className="text-muted-foreground text-sm">
-                      Screenshot
-                    </span>
+                    {project.image ? (
+                      <img 
+                        src={project.image} 
+                        alt={`${project.title} screenshot`}
+                        className="w-full h-full object-cover object-top"
+                      />
+                    ) : (
+                      <span className="text-muted-foreground text-sm">Screenshot</span>
+                    )}
                   </div>
 
                   <h4 className="text-xl font-semibold text-foreground mb-3 group-hover:text-primary transition-colors">

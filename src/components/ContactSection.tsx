@@ -49,7 +49,7 @@ const ContactSection = () => {
               </a>
 
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/nomdumiso-irene-mtshilibe-a1a115290"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-5 py-3 rounded-lg bg-secondary border border-border hover:border-primary/50 text-muted-foreground hover:text-primary transition-all duration-300"
@@ -69,7 +69,7 @@ const ContactSection = () => {
               </a>
 
               <a
-                href="/resume.pdf"
+                href="/resume/Nomdumiso_Irene_Mtshilibe_CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-5 py-3 rounded-lg bg-secondary border border-border hover:border-primary/50 text-muted-foreground hover:text-primary transition-all duration-300"
